@@ -1,5 +1,5 @@
 import type { Config } from "tailwindcss";
-import lineClamp from "@tailwindcss/line-clamp";
+import scrollbar from "tailwind-scrollbar";
 
 export default {
   darkMode: ["class"],
@@ -64,5 +64,5 @@ export default {
       },
     },
   },
-  plugins: [require("tailwindcss-animate"), lineClamp],
+  plugins: [require("tailwindcss-animate"), scrollbar],
 } satisfies Config;

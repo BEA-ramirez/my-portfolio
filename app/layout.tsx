@@ -1,7 +1,6 @@
 import React from "react";
 import "../style/styles.css";
 
-
 export default function layout({ children }: { children: React.ReactNode }) {
   return (
     <html>

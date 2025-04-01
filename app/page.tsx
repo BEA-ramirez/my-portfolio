@@ -22,9 +22,9 @@ export default function page() {
           Curious coder, problem solver.
         </h2>
         <p className="line-clamp-3 w-[30rem] mt-10">
-          I'm a 3rd year college student at Visayas State University, focused on
-          creating innovative solutions through coding and web development to
-          tackle real-world challenges.
+          I&apos;m a 3rd year college student at Visayas State University,
+          focused on creating innovative solutions through coding and web
+          development to tackle real-world challenges.
         </p>
         <Button variant="outline" asChild className="mt-10 ">
           <Link href="/main">Get In Touch</Link>

@@ -22,26 +22,27 @@ export default function page() {
             solutions that solve real-world problems. My curiosity drives me to
             continuously learn and explore new technologies, and I thrive on the
             challenges that come with coding—even when it involves debugging and
-            discovering that a small oversight caused a major issue. (We’ve all
-            been there, right?) These moments, though frustrating, remind me of
-            the importance of patience, persistence, and attention to detail in
-            this field.
+            discovering that a small oversight caused a major issue. (We&apos;ve
+            all been there, right?) These moments, though frustrating, remind me
+            of the importance of patience, persistence, and attention to detail
+            in this field.
           </p>
           <p>
             While I may not have a specific niche yet, I take pride in being a
-            versatile problem-solver. Often described as a "jack of all trades,"
-            I see this as a strength rather than a limitation. It allows me to
-            adapt to different roles, collaborate with diverse teams, and
-            contribute to various aspects of a project. I believe that with
-            focus and determination, I can achieve anything I set my mind to.
+            versatile problem-solver. Often described as a &quot;jack of all
+            trades,&quot; I see this as a strength rather than a limitation. It
+            allows me to adapt to different roles, collaborate with diverse
+            teams, and contribute to various aspects of a project. I believe
+            that with focus and determination, I can achieve anything I set my
+            mind to.
           </p>
           <p>
-            Technology has always fascinated me, and I’m constantly amazed by
-            how rapidly it evolves. Although I never imagined myself entering
+            Technology has always fascinated me, and I&apos;m constantly amazed
+            by how rapidly it evolves. Although I never imagined myself entering
             the tech world, the decision to pursue this path was one of the best
-            I’ve made. What started as a spur-of-the-moment choice has turned
-            into a fulfilling journey, and I’ve discovered a genuine passion for
-            coding and creating.
+            I&apos;ve made. What started as a spur-of-the-moment choice has
+            turned into a fulfilling journey, and I&apos;ve discovered a genuine
+            passion for coding and creating.
           </p>
           <p>
             Outside of work, I enjoy spending time with my two cats, diving into

@@ -7,7 +7,7 @@ export default function SideBar() {
     <div className="flex flex-col gap-2">
       <SideComponent text="ABOUT" link="#about" />
       <SideComponent text="SKILLS" link="#skills" />
-      <SideComponent text="PROJECTS" link="/" />
+      <SideComponent text="PROJECTS" link="#projects" />
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import SideBar from "@/components/SideBar";
 import SkillCard from "@/components/SkillCard";
+import ProjectCard from "@/components/ProjectCard";
 
 export default function page() {
   return (
@@ -77,6 +78,39 @@ export default function page() {
             title="Database"
             description="Databases I've used."
             tags={["Firestore Database", "MongoDB", "MySQL"]}
+          />
+        </div>
+        <h6 id="projects" className="border">
+          hello
+        </h6>
+        <div className="flex flex-col gap-4">
+          <ProjectCard
+            title="Byte by Byte"
+            description="Web app documenting my journey as a computer science student. Features 15+ blog posts on challenges, learning strategies, and experiences with 5+ programming languages, providing insights into mastering complex CS concepts."
+            tags={["Node.js", "EJS", "MongoDB", "Express.js"]}
+            image="/assets/ByteByByte.png"
+            alt="byte by byte"
+          />
+          <ProjectCard
+            title="BoardHouse Finder"
+            description="Desktop app built with C# ASP.NET to assist over 10,000 Visayas State University students in finding accommodations. Integrates Google Maps for 30% faster navigation and filters 100+ listings for tailored searches."
+            tags={["C#", "ASP.NET", "Google Maps API"]}
+            image="/assets/BoardHouseFinder.png"
+            alt="boardhouse finder"
+          />
+          <ProjectCard
+            title="Signature Forgery Detection"
+            description="Machine learning system for real-time signature authentication. Trained a model with 95% accuracy using 1000+ samples and implemented 3 image preprocessing techniques with OpenCV to enhance performance. Developed and deployed using TensorFlow/Keras, Python, and Flask."
+            tags={["TensorFlow", "Keras", "OpenCV", "Python", "Flask"]}
+            image="/assets/SignatureForgeryDetection.png"
+            alt="signature forgery detection"
+          />
+          <ProjectCard
+            title="Honesty Store IMS"
+            description="Web-based inventory management system for honesty stores and small retailers. Features automated stock tracking, sales monitoring, and real-time reporting. Developed secure RESTful APIs, optimized database queries, and implemented role-based authentication to improve security and efficiency."
+            tags={["Next.js", "Firebase", "Tailwind CSS"]}
+            image="/assets/Weather.png"
+            alt="weather"
           />
         </div>
       </div>

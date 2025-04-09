@@ -2,10 +2,11 @@ import React from "react";
 import SideBar from "@/components/SideBar";
 import SkillCard from "@/components/SkillCard";
 import ProjectCard from "@/components/ProjectCard";
+import Contacts from "@/components/Contacts";
 
 export default function page() {
   return (
-    <div className="flex gap-[8rem] h-screen">
+    <div className="flex h-screen">
       <div className="border border-[#000] w-[90rem] p-4 sticky pt-[5rem] px-8">
         <h1 className="text-4xl font-bold mb-2">BEA Ramirez</h1>
         <h5 className="text-[1.2rem] font-semibold mb-2">Backend Developer</h5>
@@ -14,8 +15,9 @@ export default function page() {
           user experiences.
         </p>
         <SideBar />
+        <Contacts additional="mt-[11rem]" />
       </div>
-      <div className="border border-[#000] flex-grow overflow-y-auto scrollbar-none">
+      <div className="border border-[#000] flex-grow overflow-y-auto scrollbar-none pl-[8rem]">
         <h6 id="about" className="border"></h6>
         <div className="flex flex-col gap-6 mt-[4rem] pr-[4rem] pl-[5rem] mb-[8rem]">
           <p>
@@ -53,7 +55,7 @@ export default function page() {
           </p>
         </div>
         <h6 id="skills" className="border">
-          hello
+          {""}
         </h6>
         <div className="flex flex-col gap-8 mb-[9rem] border pb-[3rem] pt-[5rem]">
           <SkillCard
@@ -80,10 +82,10 @@ export default function page() {
             tags={["Firestore Database", "MongoDB", "MySQL"]}
           />
         </div>
-        <h6 id="projects" className="border">
-          hello
+        <h6 id="projects" className="border ">
+          {""}
         </h6>
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-10 pt-12 mb-[9rem]">
           <ProjectCard
             title="Byte by Byte"
             description="Web app documenting my journey as a computer science student. Features 15+ blog posts on challenges, learning strategies, and experiences with 5+ programming languages, providing insights into mastering complex CS concepts."

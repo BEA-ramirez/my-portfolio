@@ -23,30 +23,19 @@ export default function ProjectCard({
   alt: string;
 }) {
   return (
-    <div className="flex ml-7">
-      <div className="pt-7">
-        <Image
-          src={image}
-          alt={alt}
-          width={150}
-          height={80}
-          objectFit="cover"
-        />
+    <div className="flex ml-[4rem] gap-4 border w-[83%]">
+      <div className="pt-2">
+        <Image src={image} alt={alt} width={130} height={80} />
       </div>
-
-      <Card className="w-[30rem]">
-        <CardHeader>
-          <CardTitle>{title}</CardTitle>
-          <CardDescription>{description}</CardDescription>
-        </CardHeader>
-        <CardContent>
-          <div className="flex flex-wrap gap-2">
-            {tags.map((tag, index) => (
-              <Tag title={tag} key={index} />
-            ))}
-          </div>
-        </CardContent>
-      </Card>
+      <div className="w-[27rem]">
+        <h4 className="font-semibold mb-2">{title}</h4>
+        <p className="text-[0.9rem] mb-5 leading-[1.5]">{description}</p>
+        <div className="flex flex-wrap gap-2">
+          {tags.map((tag, index) => (
+            <Tag title={tag} key={index} />
+          ))}
+        </div>
+      </div>
     </div>
   );
 }

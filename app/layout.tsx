@@ -22,7 +22,7 @@ export const metadata = {
   },
 
   icons: {
-    icon: [{ url: "/black_transparent", type: "image/png" }],
+    icon: [{ url: "/black_transparent.png", type: "image/png" }],
   },
 };
 

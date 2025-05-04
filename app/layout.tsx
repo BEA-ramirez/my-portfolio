@@ -22,7 +22,7 @@ export const metadata = {
   },
 
   icons: {
-    icon: [{ url: "/black_transparent.svg", type: "image/svg+xml" }],
+    icon: [{ url: "/black.svg", type: "image/svg+xml" }],
   },
 };
 
@@ -32,7 +32,6 @@ export default function layout({ children }: { children: React.ReactNode }) {
       <head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" href="/black.svg" type="image/svg+xml" />
         <link
           rel="stylesheet"
           href="https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-chubby/css/uicons-regular-chubby.css"

@@ -111,7 +111,7 @@ export default function page() {
             title="Honesty Store IMS"
             description="Web-based inventory management system for honesty stores and small retailers. Features automated stock tracking, sales monitoring, and real-time reporting. Developed secure RESTful APIs, optimized database queries, and implemented role-based authentication to improve security and efficiency."
             tags={["Next.js", "Firebase", "Tailwind CSS"]}
-            image="/assets/Weather.png"
+            image="/assets/signup.png"
             alt="weather"
           />
         </div>

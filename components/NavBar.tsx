@@ -12,23 +12,29 @@ export default function NavBar() {
     <Breadcrumb>
       <BreadcrumbList>
         <BreadcrumbItem>
-          <BreadcrumbLink href="/">About</BreadcrumbLink>
+          <BreadcrumbLink href="/main#about">About</BreadcrumbLink>
         </BreadcrumbItem>
         <BreadcrumbSeparator />
         <BreadcrumbItem>
-          <BreadcrumbLink href="/">Skills</BreadcrumbLink>
+          <BreadcrumbLink href="/main#skills">Skills</BreadcrumbLink>
         </BreadcrumbItem>
         <BreadcrumbSeparator />
         <BreadcrumbItem>
-          <BreadcrumbLink href="/">Projects</BreadcrumbLink>
+          <BreadcrumbLink href="/main#projects">Projects</BreadcrumbLink>
         </BreadcrumbItem>
         <BreadcrumbSeparator />
         <BreadcrumbItem>
-          <BreadcrumbLink href="/">Blog</BreadcrumbLink>
+          <BreadcrumbLink
+            href="my-blog-rust-mu.vercel.app"
+            target="_blank"
+            rel="noopennernoreferrer"
+          >
+            Blog
+          </BreadcrumbLink>
         </BreadcrumbItem>
         <BreadcrumbSeparator />
         <BreadcrumbItem>
-          <BreadcrumbLink href="/">Contacts</BreadcrumbLink>
+          <BreadcrumbLink href="/main#contacts">Contacts</BreadcrumbLink>
         </BreadcrumbItem>
       </BreadcrumbList>
     </Breadcrumb>

@@ -1,11 +1,4 @@
 import React from "react";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
 import Tag from "./Tag";
 import Image from "next/image";
 
